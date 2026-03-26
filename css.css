@@ -104,6 +104,14 @@ a {
     
 }
 
+a:hover{
+    color:white;
+}
+
+body .dark-mode a:hover{
+    color:#000;
+}
+
 
 .site-nav li{
     padding: 0;
