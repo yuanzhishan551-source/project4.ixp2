@@ -426,7 +426,6 @@ h2{
 
 /*HOMEPAGE CSS*/
 .HOMEC1{
-    text-align: left;
 }
 
 .HOMEC1 h2{
@@ -443,14 +442,18 @@ h2{
 }
 
 .HOME{
-    max-width: 50rem; 
-    margin: 0 auto;   
     
     @media screen and (min-width: 850px) {
        display:grid;
 		grid-template-columns: 1fr auto;
+        margin-left: 4rem;
+        margin-right: 4rem;
          
     }
+}
+
+.HOME_title h2{
+    font-size: 2rem;
 }
 
     .HOME :hover{
